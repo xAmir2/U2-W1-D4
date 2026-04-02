@@ -7,6 +7,27 @@
 6 animare le altre 2 parole
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  40% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 0;
+  }
+}
 /* BODY */
 body {
   font-family: "Bree", sans-serif;
@@ -45,25 +66,4 @@ div {
 }
 .parole i:nth-child(3) {
   animation-delay: 6s;
-}
-@keyframes slide {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  10% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  30% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  40% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 0;
-  }
 }
