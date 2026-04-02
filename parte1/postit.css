@@ -1,0 +1,68 @@
+/* BODY */
+body {
+  font-family: "Indie Flower", cursive;
+  background-color: #666666;
+  display: flex;
+  justify-content: center;
+}
+/* MAIN */
+main {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2em;
+  width: 80vw;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 15vw;
+  height: 18vh;
+  box-shadow: 2px 2px 10px black;
+  margin: 0.7em;
+}
+p {
+  margin: 0.7em 0em;
+}
+div p:first-of-type {
+  font-weight: bold;
+  font-size: x-large;
+}
+div p:last-of-type {
+  font-size: large;
+}
+.yellow {
+  background: #fcfcca;
+  background: linear-gradient(
+    179deg,
+    rgba(252, 252, 202, 1) 0%,
+    rgb(172, 173, 144) 100%
+  );
+  transform: rotate(354deg);
+}
+.green {
+  background: #cafccb;
+  background: linear-gradient(
+    179deg,
+    rgb(203, 248, 204) 0%,
+    rgb(141, 161, 142) 100%
+  );
+  transform: rotate(10deg);
+}
+.purple {
+  background: #c1c2eb;
+  background: linear-gradient(
+    179deg,
+    rgb(203, 203, 247) 0%,
+    rgb(137, 137, 155) 100%
+  );
+  transform: rotate(352deg);
+}
+div:hover {
+  transform: scale(1.2);
+}
