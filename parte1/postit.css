@@ -1,3 +1,12 @@
+@keyframes slideshow {
+  0% {
+    opacity: 0;
+    scale: 1.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* BODY */
 body {
   font-family: "Indie Flower", cursive;
@@ -67,16 +76,6 @@ div p:last-of-type {
 }
 div:hover {
   transform: scale(1.2);
-}
-
-@keyframes slideshow {
-  0% {
-    opacity: 0;
-    scale: 1.2;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 div:nth-of-type(7) {
